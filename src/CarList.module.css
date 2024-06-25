@@ -1,0 +1,56 @@
+.carListContainer{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+.carListContainer h2{
+    margin: 10px 0;
+    font-size: 3.5em;
+}
+
+.carList{
+    font-size: 1.7em;
+    margin: 20px 0px;
+}
+
+.carList li{
+    margin: 10px;
+    cursor: pointer;
+    transition: all 100ms ease;
+}
+.carList li:hover{
+    color: hsla(0, 0%, 0%, 0.70);
+}
+
+.carInput{
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 1.5em;
+    border: 1px solid hsla(0, 0%, 0%, 0.5);
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px hsla(0, 0%, 0%, 0.3);   
+}
+
+.deleteDesc{
+    font-size: 0.9em;
+    color: hsla(0, 0%, 0%, 0.7);
+}
+
+.carBtn{
+    font-size: 1.5em;
+    border: 1px solid hsla(0, 0%, 0%, 0.5);
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px hsla(0, 0%, 0%, 0.3);
+    padding: 10px 20px;   
+    background-color: hsla(0, 0%, 0%, 0.80);
+    color: white;
+    cursor: pointer;
+    margin: 10px 0;
+    transition: all 100ms ease;
+}
+.carBtn:hover{
+    background-color: hsla(0, 0%, 0%, 0.70);
+}
